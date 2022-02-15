@@ -16,21 +16,6 @@ def read():
     return empleados 
 
 
-def match_Employees(dic_employees):
-    count=1
-    diccion={}
-    
-    for name, days in dic_employees.items():
-        
-        for day in days:
-            
-
-            if not(day in diccion):
-                
-                diccion[day]=[name]
-            else:
-                diccion[day].append(name)
-    return diccion
 
 def match_employ(dic_employ):
     dic_match={}
@@ -43,7 +28,7 @@ def match_employ(dic_employ):
                 names=name1+ '-' +name2
                 names2=name2+ '-' +name1
 
-                if not(names in dic_match):
+                if not(names in dic_match) and not(names2 in dic_match):
                     dic_match[names]=count
        
     return dic_match
