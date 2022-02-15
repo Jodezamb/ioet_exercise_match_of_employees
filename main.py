@@ -1,5 +1,6 @@
 
-from ast import Pass
+
+from tabulate import tabulate
 
 
 def read():
@@ -33,26 +34,21 @@ def match_employ(dic_employ):
        
     return dic_match
 
+def show_result(dic_match):
 
-            
+    result=dic_match.items()
 
+    print(tabulate(result, headers=["Names", "Matches"]))
+    
+  
 
                 
 
-
-
 def run():
-    empleados=read()
-    #print('---------------')
-   #print(empleados)
-    #print('---------------')
-    #print(match_Employees(empleados))
+    empleados=read() 
     print('---------------')
-    print('final pruena')
     print(match_employ(empleados))
-    dicfinal=match_employ(empleados)
-    for key, value in dicfinal.items():
-        print(key)
+    show_result(match_employ(empleados))
 
 
 
