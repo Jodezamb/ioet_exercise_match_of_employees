@@ -2,9 +2,10 @@
 
 The company ACME offers their employees the flexibility to work the hours they want. But due to some external circumstances they need to know what employees have been at the office within the same time frame
 
-The goal of this exercise is to output a table containing pairs of employees and how often they have coincided in the office.
 
-Input: the name of an employee and the schedule they worked, indicating the time and hours. This should be a .txt file with at least five sets of data. You can include the data from our example below:
+**The goal of this exercise is to output a table containing pairs of employees and how often they have coincided in the office.**
+
+Input: the name of an employee and the schedule they worked, indicating the time and hours. This should be a .txt file with  sets of data. 
 
 **EXAMPLE**
 
@@ -26,6 +27,8 @@ RENE-ANDRES: 2
 
 # Description
 For the resolution of the exercise, libraries such as mypy were used to perform the validation of static typing and not incur in typing errors, in addition, the Tabulate library was used to format the data shown to the user as a table and finally it was used the typing module to offer a better structure in the typing of the types of objects that will be used for the development of the exercise.
+
+To begin with, the file containing the employees employees.txt in the files folder is read, and then the pairing between the employees is performed.
 
 
 # Resource
