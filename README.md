@@ -70,6 +70,7 @@ After installing and activating the virtual environment, the environment should 
 
 ## Result
 Pairs employees with times they are at work per week.
+
 ![ ](https://github.com/Jodezamb/ioet_exercise_match_of_employees/blob/main/files/result.png?raw=true)
 
 ## Test static typing
