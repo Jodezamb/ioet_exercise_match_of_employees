@@ -31,9 +31,30 @@ To make use of the repository you must execute the command **"git clone (url)"**
 
  - Typing
  - Tabulate
- - 
+
  and you should continue with the following steps.....
+
+
+# RUN
+- Open visual studio Code in the folder where the repository was cloned
+
+![ ](https://github.com/Jodezamb/ioet_exercise_match_of_employees/blob/main/files/start.png?raw=true)
+
+- Open a terminal in VSC in the same folder of the repository, then proceed with the installation of the virtual enviroment 
+## Virtual enviroment
+### Windows 
+1. py -m venv venv 
+2. .\venv\Scripts\activate  
+
+### Linux
+1. sudo apt-get install python3-pip
+2. apt-get install python3-venv
+3. python3 -m venv venv
+4. source venv/bin/activate
  
-# Installation
-Enter the system console, then proceed with the installation of the libraries and execute line by line.
+and   the libraries and execute line by line.
+libraries
 1. pip install tabulate
+2. pip install mypy
+3. py -m pip install types-tabulate ![image](https://user-images.githubusercontent.com/67130967/154313679-ee4601d0-923c-4102-ba49-68cf96edce74.png)
+![image](https://user-images.githubusercontent.com/67130967/154313684-923edafa-c176-4371-9f8c-3363d3b18547.png)
