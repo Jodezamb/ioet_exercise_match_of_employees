@@ -46,9 +46,15 @@ To make use of the repository you must execute the command **"git clone (url)"**
 
 - Open a terminal in VSC in the same folder of the repository, then proceed with the installation of the virtual enviroment 
 ## Virtual enviroment
+After installing and activating the virtual environment, the environment should appear in the terminal
+
 ### Windows 
 1. py -m venv venv 
 2. .\venv\Scripts\activate  
+
+*example*
+
+![ ](https://github.com/Jodezamb/ioet_exercise_match_of_employees/blob/main/files/venvi.png?raw=true)
 
 ### Linux
 1. sudo apt-get install python3-pip
@@ -56,10 +62,14 @@ To make use of the repository you must execute the command **"git clone (url)"**
 3. python3 -m venv venv
 4. source venv/bin/activate
 
-After installing and activating the virtual environment, the environment should appear in the terminal as follows
-![ ](https://github.com/Jodezamb/ioet_exercise_match_of_employees/blob/main/files/venvi.png?raw=true)
+*example*
 
- **execute line by line the following commands**
+![ ](https://github.com/Jodezamb/ioet_exercise_match_of_employees/blob/main/files/linux.png?raw=true)
+
+ 
+
+
+ **Execute line by line the following commands in the terminal to download the necessary modules **
 
 1. pip install tabulate   
 2. pip install mypy
