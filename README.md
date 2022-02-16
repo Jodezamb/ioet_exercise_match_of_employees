@@ -52,7 +52,7 @@ To make use of the repository you must execute the command **"git clone (url)"**
 
 ### Linux
 1. sudo apt-get install python3-pip
-2. apt-get install python3-venv
+2. sudo apt-get install python3-venv
 3. python3 -m venv venv
 4. source venv/bin/activate
 
