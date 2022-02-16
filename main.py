@@ -1,5 +1,5 @@
 
-from typing import Dict 
+from typing import Dict,List
 from tabulate import tabulate
 
 '''Funcion que lee el arhivo employees.txt ubicado en la carpeta files
@@ -13,9 +13,11 @@ def read() -> dict:
 
         for employee_line in f:
             
+            days:List[str]                          #Estructura de la lista days que contiene los dias. 
+            
             name=employee_line.rstrip().split('=')[0] # se realiza un split por el operador '=' y se asigna el primer valor a name [0]
-            days=employee_line.rstrip().split('=')[1] # se realiza un split '='  y se asigna los valores de los dias a day 
-            days=days.split(",")                      # se realiza un split ','  para separar cada dia de days.
+            days_string=employee_line.rstrip().split('=')[1] # se realiza un split '='  y se asigna los valores de los dias a day_string 
+            days=days_string.split(",")                      # se realiza un split ','  para separar cada dia de days.
             employees[name]=set(days)  
             
     return employees  # estructura employees -> {'RENE': {'TH01:00-03:00', 'TU10:00-12:00', 'MO10:00-12:00', 'SU20:00-21:00', 'SA14:00-18:00'}}
@@ -47,7 +49,7 @@ def match_employees(dic_employees: dict) ->dict:
 
 
 '''Funcion que recibe como parametro un diccionario que contiene las veces que los empleandos coindicen
-   en el trabajo y devuleve un string en formato de tabla para la muestra de los resultados
+   en el trabajo y devuelve un string en formato de tabla para la muestra de los resultados
 '''
 def show_result(dic_match: dict)->str:
 
@@ -57,7 +59,7 @@ def show_result(dic_match: dict)->str:
     return table  
     
   
-'''Funcion principal donde se ejecuten las funciones para el desarrollo del ejericio
+'''Funcion principal donde se ejecutan las funciones para el desarrollo del ejericio
 '''
                 
 def run():
