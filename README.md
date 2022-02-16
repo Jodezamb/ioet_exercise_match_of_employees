@@ -61,7 +61,7 @@ After installing and activating the virtual environment, the environment should 
 
  **execute line by line the following commands**
 
-1. py -m pip install types-tabulate   
+1. pip install tabulate   
 2. pip install mypy
 
 ### As a last step, verify that VSC recognizes the virtual environment like this and WE ARE READY TO RUN
