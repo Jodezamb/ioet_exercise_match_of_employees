@@ -91,6 +91,9 @@ It can be seen that the result of the validation of the static typing through my
 
 ![ ](https://github.com/Jodezamb/ioet_exercise_match_of_employees/blob/main/files/mypy.png?raw=true)
 
+## Project Code
+The structure of the project is based on a folder called **files** that contains the necessary resources for the project, it contains the **employees.txt** file that contains the workers.
 
+It also has the **main.py** file where all the logic of the program is developed, and files such as the **gitignore** to skip uploading unwanted files to github, and the **readme** for a better understanding of the exercise.
 
 
