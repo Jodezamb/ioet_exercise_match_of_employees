@@ -31,6 +31,7 @@ To make use of the repository you must execute the command **"git clone (url)"**
 
  - Typing
  - Tabulate
+ - mypy
 
  and you should continue with the following steps.....
 
@@ -51,10 +52,25 @@ To make use of the repository you must execute the command **"git clone (url)"**
 2. apt-get install python3-venv
 3. python3 -m venv venv
 4. source venv/bin/activate
- 
-and   the libraries and execute line by line.
-libraries
-1. pip install tabulate
+
+After installing and activating the virtual environment, the environment should appear in the terminal as follows
+![ ](https://github.com/Jodezamb/ioet_exercise_match_of_employees/blob/main/files/venvi.png?raw=true)
+
+ **execute line by line the following commands**
+
+1. py -m pip install types-tabulate   
 2. pip install mypy
-3. py -m pip install types-tabulate ![image](https://user-images.githubusercontent.com/67130967/154313679-ee4601d0-923c-4102-ba49-68cf96edce74.png)
-![image](https://user-images.githubusercontent.com/67130967/154313684-923edafa-c176-4371-9f8c-3363d3b18547.png)
+
+### As a last step, verify that VSC recognizes the virtual environment like this and WE ARE READY TO RUN
+![ ](https://github.com/Jodezamb/ioet_exercise_match_of_employees/blob/main/files/check.png?raw=true)
+
+
+## Result
+![ ](https://github.com/Jodezamb/ioet_exercise_match_of_employees/blob/main/files/result.png?raw=true)
+
+## Test static typing
+![ ](https://github.com/Jodezamb/ioet_exercise_match_of_employees/blob/main/files/mypy.png?raw=true)
+
+
+
+
