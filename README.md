@@ -24,6 +24,9 @@ ASTRID-ANDRES: 3
 
 RENE-ANDRES: 2
 
+# Description
+For the resolution of the exercise, libraries such as mypy were used to perform the validation of static typing and not incur in typing errors, in addition, the Tabulate library was used to format the data shown to the user as a table and finally it was used the typing module to offer a better structure in the typing of the types of objects that will be used for the development of the exercise.
+
 
 # Resource
 
@@ -66,9 +69,12 @@ After installing and activating the virtual environment, the environment should 
 
 
 ## Result
+Pairs employees with times they are at work per week.
 ![ ](https://github.com/Jodezamb/ioet_exercise_match_of_employees/blob/main/files/result.png?raw=true)
 
 ## Test static typing
+It can be seen that the result of the validation of the static typing through mypy was successful since it does not show typing errors
+
 ![ ](https://github.com/Jodezamb/ioet_exercise_match_of_employees/blob/main/files/mypy.png?raw=true)
 
 
